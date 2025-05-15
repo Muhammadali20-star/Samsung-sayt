@@ -12,7 +12,7 @@ const Hero = ({title, desc, image, catigory, name}) => {
         <div className='mt-90 mb-6'>
           <h1 className='text-4xl'>{name}</h1>
         </div>
-        <p className='text-2xl mb-4'>{desc}</p>
+        <p className='text-[14px] mb-4'>{desc}</p>
         <div className='flex gap-4 justify-center'>
           <button className='underline text-black-300'>shop all appliance deals</button>
           <button className='border border-black-600 text-black-600 px-4 py-2 rounded'>Buy Shop</button>
