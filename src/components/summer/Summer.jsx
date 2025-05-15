@@ -14,7 +14,7 @@ const Summer = () => {
       }
       </div>
         
-        <div className='flex justify-between gap-20'>
+        <div className='flex justify-between'>
             {
                 SUMMER?.map((summer) => (
                      <div key={summer.id}>
